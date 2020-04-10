@@ -46,14 +46,14 @@ namespace DZ20200409
                     if(ch == 2)
                     {
                         System.Console.WriteLine();
-                        Player play = new Player();
-                        play.Pause();
+                        Player pause = new Player();
+                        pause.Pause();
                     }
                     if(ch == 3)
                     {
                         System.Console.WriteLine();
-                        Player play = new Player();
-                        play.Stop();
+                        Player stop = new Player();
+                        stop.Stop();
                     }
                     break;
                 }
@@ -67,20 +67,20 @@ namespace DZ20200409
                     if(ch == 1)
                     {
                         System.Console.WriteLine();
-                        Player play = new Player();
-                        play.Record();
+                        Player record = new Player();
+                        record.Record();
                     }
                     if(ch == 2)
                     {
                         System.Console.WriteLine();
-                        Player play = new Player();
-                        play.Pause();
+                        Player pause = new Player();
+                        pause.Pause();
                     }
                     if(ch == 3)
                     {
                         System.Console.WriteLine();
-                        Player play = new Player();
-                        play.Stop();
+                        Player stop = new Player();
+                        stop.Stop();
                     }
                     break;
                 }
