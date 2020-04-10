@@ -1,6 +1,7 @@
 ﻿using System;
 using DZ_IRecodableSpace;
 using DZ_IPlayableSpace;
+using DZ_PlayerSpace;
 
 namespace DZ20200409
 {
@@ -22,9 +23,73 @@ namespace DZ20200409
                               и IRecodable.
                             • Написать программу, которая выводит на экран текст действия.
             */
-
-
-
+                System.Console.WriteLine("Select interface | Выберите интерфейс");
+                System.Console.WriteLine("1 IPlayable | Воспроизводимый интерфейс");
+                System.Console.Write("2 IRecodable | Записываемый интерфейс\n");
+                System.Console.Write("Your choice | Ваш выбор: ");
+            int choice = int.Parse(Console.ReadLine());
+            switch(choice)
+            {
+                case 1:
+                {
+                    System.Console.WriteLine();
+                    System.Console.WriteLine("You are on the IPlayable | Вы на интерфейсе воспроизведения");
+                    System.Console.WriteLine("Select an action | Выберите действие:\n1 Play\n2 Pause\n3 Stop");
+                    System.Console.Write("Your choice | Ваш выбор: ");
+                    int ch = int.Parse(Console.ReadLine());
+                    if(ch == 1)
+                    {
+                        System.Console.WriteLine();
+                        Player play = new Player();
+                        play.Play();
+                    }
+                    if(ch == 2)
+                    {
+                        System.Console.WriteLine();
+                        Player play = new Player();
+                        play.Pause();
+                    }
+                    if(ch == 3)
+                    {
+                        System.Console.WriteLine();
+                        Player play = new Player();
+                        play.Stop();
+                    }
+                    break;
+                }
+                case 2:
+                {
+                    System.Console.WriteLine();
+                    System.Console.WriteLine("You are on the IRecodable | Вы на интерфейсе записывания");
+                    System.Console.WriteLine("Select an action | Выберите действие:\n1 Record\n2 Pause\n3 Stop");
+                    System.Console.Write("Your choice | Ваш выбор: ");
+                    int ch = int.Parse(Console.ReadLine());
+                    if(ch == 1)
+                    {
+                        System.Console.WriteLine();
+                        Player play = new Player();
+                        play.Record();
+                    }
+                    if(ch == 2)
+                    {
+                        System.Console.WriteLine();
+                        Player play = new Player();
+                        play.Pause();
+                    }
+                    if(ch == 3)
+                    {
+                        System.Console.WriteLine();
+                        Player play = new Player();
+                        play.Stop();
+                    }
+                    break;
+                }
+                default:
+                {
+                    System.Console.WriteLine("ERROR !!!");
+                    break;
+                }
+            }
             Console.ReadKey();
         }
     }

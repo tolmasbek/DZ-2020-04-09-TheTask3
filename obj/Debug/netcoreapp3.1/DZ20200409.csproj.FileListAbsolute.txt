@@ -1,0 +1,13 @@
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\bin\Debug\netcoreapp3.1\DZ20200409.exe
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\bin\Debug\netcoreapp3.1\DZ20200409.deps.json
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\bin\Debug\netcoreapp3.1\DZ20200409.runtimeconfig.json
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\bin\Debug\netcoreapp3.1\DZ20200409.runtimeconfig.dev.json
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\bin\Debug\netcoreapp3.1\DZ20200409.dll
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\bin\Debug\netcoreapp3.1\DZ20200409.pdb
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\obj\Debug\netcoreapp3.1\DZ20200409.csprojAssemblyReference.cache
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\obj\Debug\netcoreapp3.1\DZ20200409.csproj.CoreCompileInputs.cache
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\obj\Debug\netcoreapp3.1\DZ20200409.AssemblyInfoInputs.cache
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\obj\Debug\netcoreapp3.1\DZ20200409.AssemblyInfo.cs
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\obj\Debug\netcoreapp3.1\DZ20200409.dll
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\obj\Debug\netcoreapp3.1\DZ20200409.pdb
+C:\Users\Tolmasbek\Desktop\ClassC#\DZ_04_09\obj\Debug\netcoreapp3.1\DZ20200409.genruntimeconfig.cache
